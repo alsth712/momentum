@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+ 
+ * {
+  font-family: 'Gowun Dodum', sans-serif;
+ }
+ 
+ body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#weather {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 1.5rem;
+  color: #303030;
+}
+
+#weather > img {
+  width: 27px;
+}
+
+#backdrop-box {
+  width: 80%;
+  height: 70%;
+  
+  position: absolute;left: 50%;top: 50%; 
+  transform: translate(-50%,-50%);
+  text-align: center;
+  
+  background-color: rgba(255, 255, 255, 0.308);
+  backdrop-filter: blur(10px);
+  box-shadow: 2px 7px 15px 8px rgba(0,0,0,0.3);
+  border-radius: 30px;
+}
+
+#clock {
+  font-size: 4rem;
+  margin: 0 auto;
+}
+
+input {
+  border: none;
+  border-bottom: solid 3px rgb(80, 80, 80);
+  background: transparent;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 300px;
+}
+
+button {
+  background-color: black;
+  color: beige;
+  border: black;
+  border-radius: 7px;
+  height: 1.7rem;
+  width: 70px;
+}
+
+button:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+#greeting {
+  font-size: 3rem;
+  background-image: linear-gradient(90deg, red, orange, yellow, green, blue, navy, purple);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#todo-box {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+#todo-form > input {
+  width: 50%;
+}
+
+ul {
+  margin-top: 30px;
+}
+
+li {
+  text-align: left;
+  margin-left: 25%;
+}
+
+#todoBtn {
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+#quote {
+  position: fixed;
+  bottom: 5%;
+  width: 100%;
+  font-size: 1.5rem;
+}
